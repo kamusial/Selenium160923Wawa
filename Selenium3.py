@@ -13,5 +13,13 @@ def czekaj_na_id(element_id):
     return oczekiwator.until(znaleziono, timeout_message)    #zwrotka
 
 driver = webdriver.Chrome()
-driver.get('https//www.saucedemo.com/')
+driver.get('https://www.saucedemo.comm/')
 
+try:
+    login_button = czekaj_na_id('login-button')
+except TimeoutException:
+    print('Nie znaleziono')
+else:
+    print('znaleziono')
+finally:
+    driver.quit()
