@@ -17,12 +17,18 @@ import pytest
 #     assert mnozenie(100, 1.1) == 110
 #     assert mnozenie(2, 'mama') == 'mamamama'
 
-def test_fissbuzz():
+def test_fissbuzz_basic():
     assert fissbuzz(1) == 1
     assert fissbuzz(2) == 2
-    # assert fissbuzz(3) == 3
-    # assert fissbuzz(5) == 5
-    # assert fissbuzz(9) == 9
-    # assert fissbuzz(15) == 15
+    assert fissbuzz(3) == 'fiss'
+    assert fissbuzz(5) == 'buzz'
+    assert fissbuzz(9) == 'fiss'
+    assert fissbuzz(15) == 'fissbuzz'
+
+def test_fissbuzz_advanced():
+    assert fissbuzz(0) == None
+    assert fissbuzz(-5) == None
+    assert fissbuzz('mama' == None)
+    assert fissbuzz(5.8) == 'buzz'
 
 
