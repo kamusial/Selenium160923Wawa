@@ -11,6 +11,7 @@ class LoginPage:
 
     def open(self):
         self.driver.get('http://www.saucedemo.com')
+        self.driver.maximize_window()
 
     def enter_username(self, username):
         field = self.driver.find_element(By.ID, self.username_field_id)
