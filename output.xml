@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.2 on win32)" generated="20230917 13:01:53.340" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot1" source="C:\Users\vdi-student\Desktop\Selenium160923Wawa\robot1.robot">
+<test id="s1-t1" name="My First Test" line="11">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://pl.wikipedia.org/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230917 13:01:53.583" level="INFO">Opening browser 'chrome' to base url 'https://pl.wikipedia.org/'.</msg>
+<status status="PASS" starttime="20230917 13:01:53.583" endtime="20230917 13:01:55.372"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230917 13:01:56.374" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230917 13:01:55.372" endtime="20230917 13:01:56.374"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:pt-login-2</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230917 13:01:56.374" level="INFO">Clicking element 'id:pt-login-2'.</msg>
+<status status="PASS" starttime="20230917 13:01:56.374" endtime="20230917 13:01:57.413"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>id:wpName1</arg>
+<arg>RobotTests</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230917 13:01:57.414" level="INFO">Typing text 'RobotTests' into text field 'id:wpName1'.</msg>
+<status status="PASS" starttime="20230917 13:01:57.413" endtime="20230917 13:01:57.510"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230917 13:01:58.510" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230917 13:01:57.510" endtime="20230917 13:01:58.510"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230917 13:01:58.510" endtime="20230917 13:02:00.618"/>
+</kw>
+<status status="PASS" starttime="20230917 13:01:53.583" endtime="20230917 13:02:00.618"/>
+</test>
+<status status="PASS" starttime="20230917 13:01:53.340" endtime="20230917 13:02:00.618"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot1">Robot1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

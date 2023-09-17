@@ -1,0 +1,16 @@
+1694947263942	geckodriver	INFO	Listening on 127.0.0.1:55468
+1694947264477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55469" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\VDI-ST~1\\AppData\\Local\\Temp\\rust_mozprofileW535Im"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694947265426	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694947265540	Marionette	INFO	Listening on port 55477
+WebDriver BiDi listening on ws://127.0.0.1:55469
+Read port: 55477
+1694947265749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55469/devtools/browser/754e3506-a97c-4ac2-bc3d-b0e4ae731d4b
+1694947282158	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1694947295620	Marionette	INFO	Stopped listening on port 55477
+Dynamically enable window occlusion 1
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1694947295671	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error
