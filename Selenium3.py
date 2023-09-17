@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as excon
-from selenium2 import make_screenshot
+from Selenium2 import make_screenshot
 
 def czekaj_na_id(element_id):
     timeout = 5
