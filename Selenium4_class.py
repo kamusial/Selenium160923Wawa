@@ -21,3 +21,7 @@ class LoginPage:
         field = self.driver.find_element(By.ID, self.password_field_id)
         field.clear()
         field.send_keys(password)
+
+    def click_login(self):
+        button = self.driver.find_element('name', self.login_button_name)
+        button.click()
